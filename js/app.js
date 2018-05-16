@@ -36,6 +36,22 @@ $(function(){
 		$('.radar-purple').css('display', 'none');
 		$('#article-purple h3').css('color', '#2F2F2F');
 	});
+	$('#article-red').mouseenter(function(){
+		$('.radar-red').css('display', 'block');
+		$('#article-red h3').css('color', '#FF3232');
+	});
+	$('#article-red').mouseleave(function(){
+		$('.radar-red').css('display', 'none');
+		$('#article-red h3').css('color', '#2F2F2F');
+	});
+	$('#article-blue-light').mouseenter(function(){
+		$('.radar-blue-light').css('display', 'block');
+		$('#article-blue-light h3').css('color', '#0093ff');
+	});
+	$('#article-blue-light').mouseleave(function(){
+		$('.radar-blue-light').css('display', 'none');
+		$('#article-blue-light h3').css('color', '#2F2F2F');
+	});
 
 
 	$('.section-home-seven a').mouseenter(function(){
