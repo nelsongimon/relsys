@@ -24,7 +24,7 @@
                         <a class="nav-link" href="index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Quienes Somos</a>
+                        <a class="nav-link" href="quienes-somos.html">Quienes Somos</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Servicios</a>
@@ -37,7 +37,7 @@
                         <a class="nav-link" href="#">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="contacto.html">Contacto</a>
                     </li>
                 </ul>
             </div> 
@@ -49,37 +49,68 @@
             <h1>Contacto</h1>
         </div>
     </section>
-    <section style="height: 200px"></section>
     <!-- Section About Us One -->
     <section class="section-contact-one">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <div class="info-container">
-                        <h5>hola</h5>
-                    </div>
+                <div class="col-md-4 offset-md-1">
+                    <img src="images/section-contact-image.svg">
                 </div>
                 <div class="col-md-6">
-                    <h2>Contáctanos</h2>
+                    <h2>No sólo hacemos web: También impulsamos su negocio</h2>
+                    <p class="mt-4">En <strong>Relsys</strong> contamos con profesionales que le ayudarán con sus requerimientos, y brindarán la mejor atención para darle solución a su problema o necesidad ofreciéndole la mejor alternativa para impulsar su negocio.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section About Us Two -->
+    <section class="section-contact-two">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 info-container">               
+                    <h3>Póngase en  contacto con nosotros</h3>
+                    <p class="mt-3">¿Necesita desarrollar su idea o proyecto? <br>Escríbanos y le ayudaremos</p>
+                    <ul class="mt-4 mb-4">
+                        <li><i class="fa fa-check" aria-hidden="true"></i>&nbsp; Cotización gratuita</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i>&nbsp; Asesoría personalizada</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i>&nbsp; Respuesta rápida</li>
+                    </ul>
+                    <div class="separator-contact"></div>
+                    <div class="info-contact">
+                        <h3>Información de contacto</h3>
+                        <ul class="mt-4">
+                            <li><i class="fa fa-map" aria-hidden="true"></i>&nbsp; <strong>Dirección</strong>: Calle Los Artesanos 150 Of. 175 Urb: Las Gardenias - Surco <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Centro Comercial “Las Plazuelas de Surco”</li>
+                            <li class="mt-3"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp; <strong>Email</strong>: info@relsys.pe</li>
+                            <li class="mt-3"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;&nbsp; <strong>Teléfonos</strong>: 01-4788314 | 971398977</li>
+                        </ul>
+                    </div>  
+                </div>
+                <div class="col-md-6 contact-container">
+                    <h3>Envíe su consulta</h3>
+                    <div class="mt-4">
                         <form name="form" method="POST" role="form" id="contactForm">
                             <div class="form-group">
-                                <input type="text" class="form-control" id="name" name="name" placeholder="Nombre">
+                                <input type="text" class="form-control form-control-lg" id="name" name="name" placeholder="Nombre">
                                 <div id="input-error-name" class="warning-contact"></div>
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control" id="phone" name="phone" placeholder="Teléfono">
+                                <input type="text" class="form-control form-control-lg" id="phone" name="phone" placeholder="Teléfono">
                                 <div id="input-error-phone" class="warning-contact"></div>
                             </div> 
                             <div class="form-group">
-                                <input type="text" class="form-control" id="email" name="email" placeholder="Email">
+                                <input type="text" class="form-control form-control-lg" id="email" name="email" placeholder="Email">
                                 <div id="input-error-email" class="warning-contact"></div>
                             </div>
+
                             <div class="form-group">
-                                <input type="text" class="form-control" id="subject" name="subject" placeholder="Asunto">
-                                <div id="input-error-subject" class="warning-contact"></div>
+                                <select name="service" class="form-control form-control-lg">
+                                    <option selected>Tipo de Servicio...</option>
+                                    <option>Diseño/Desarrollo Web</option>
+                                    <option>Community Manager</option>
+                                </select>
                             </div>
                             <div class="form-group">
-                                <textarea class="form-control" id="message" rows="7" name="message" placeholder="Mensaje"></textarea>
+                                <textarea class="form-control form-control-lg" id="message" rows="7" name="message" placeholder="Mensaje"></textarea>
                                 <div id="input-error-message" class="warning-contact"></div>
                             </div>
                             <!-- div class="alert alert-success">
@@ -88,11 +119,18 @@
                             </div -->              
                             <button type="submit" class="btn btn-primary btn-call-contact">Enviar</button>
                         </form>                                 
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <section style="height: 200px"></section>
+    <!-- Section About Us Three -->
+    <section class="section-contact-three">
+        <div class="container">
+            <h2>Inicie su proyecto con nosotros</h2>
+            <p class="mt-4">Le ofrecemos diferentes medios de contacto</p>
+        </div>
+    </section>
     <!-- Footer -->
     <footer>
         <section class="footer-info">
