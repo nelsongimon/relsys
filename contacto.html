@@ -14,7 +14,7 @@
     <!-- Navbar -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-inverse fadeInDown animated">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="images/logo-relsys-prueba.svg"></a>
+            <a class="navbar-brand" href="#"><img src="images/logo-relsys-red.svg"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -52,7 +52,7 @@
     <!-- Section About Us One -->
     <section class="section-contact-one">
         <div class="container">
-            <div class="row">
+            <div class="row wow fadeInUpQuick" data-wow-delay="0.5s">
                 <div class="col-md-4 offset-md-1">
                     <img src="images/section-contact-image.svg">
                 </div>
@@ -67,58 +67,62 @@
     <section class="section-contact-two">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6 info-container">               
-                    <h3>Póngase en  contacto con nosotros</h3>
-                    <p class="mt-3">¿Necesita desarrollar su idea o proyecto? <br>Escríbanos y le ayudaremos</p>
-                    <ul class="mt-4 mb-4">
-                        <li><i class="fa fa-check" aria-hidden="true"></i>&nbsp; Cotización gratuita</li>
-                        <li><i class="fa fa-check" aria-hidden="true"></i>&nbsp; Asesoría personalizada</li>
-                        <li><i class="fa fa-check" aria-hidden="true"></i>&nbsp; Respuesta rápida</li>
-                    </ul>
-                    <div class="separator-contact"></div>
-                    <div class="info-contact">
-                        <h3>Información de contacto</h3>
-                        <ul class="mt-4">
-                            <li><i class="fa fa-map" aria-hidden="true"></i>&nbsp; <strong>Dirección</strong>: Calle Los Artesanos 150 Of. 175 Urb: Las Gardenias - Surco <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Centro Comercial “Las Plazuelas de Surco”</li>
-                            <li class="mt-3"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp; <strong>Email</strong>: info@relsys.pe</li>
-                            <li class="mt-3"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;&nbsp; <strong>Teléfonos</strong>: 01-4788314 | 971398977</li>
+                <div class="col-md-6 info-container">
+                    <div class="wow fadeInLeft" data-wow-delay="0.7s">
+                        <h3>Póngase en  contacto con nosotros</h3>
+                        <p class="mt-3">¿Necesita desarrollar su idea o proyecto? <br>Escríbanos y le ayudaremos</p>
+                        <ul class="mt-4 mb-4">
+                            <li><i class="fa fa-check" aria-hidden="true"></i>&nbsp; Cotización gratuita</li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i>&nbsp; Asesoría personalizada</li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i>&nbsp; Respuesta rápida</li>
                         </ul>
-                    </div>  
+                        <div class="separator-contact"></div>
+                        <div class="info-contact">
+                            <h3>Información de contacto</h3>
+                            <ul class="mt-4">
+                                <li><i class="fa fa-map" aria-hidden="true"></i>&nbsp; <strong>Dirección</strong>: Calle Los Artesanos 150 Of. 175 Urb: Las Gardenias - Surco <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Centro Comercial “Las Plazuelas de Surco”</li>
+                                <li class="mt-3"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp; <strong>Email</strong>: info@relsys.pe</li>
+                                <li class="mt-3"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;&nbsp; <strong>Teléfonos</strong>: 01-4788314 | 971398977</li>
+                            </ul>
+                        </div>  
+                    </div>               
                 </div>
                 <div class="col-md-6 contact-container">
-                    <h3>Envíe su consulta</h3>
-                    <div class="mt-4">
-                        <form name="form" method="POST" role="form" id="contactForm">
-                            <div class="form-group">
-                                <input type="text" class="form-control form-control-lg" id="name" name="name" placeholder="Nombre">
-                                <div id="input-error-name" class="warning-contact"></div>
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control form-control-lg" id="phone" name="phone" placeholder="Teléfono">
-                                <div id="input-error-phone" class="warning-contact"></div>
-                            </div> 
-                            <div class="form-group">
-                                <input type="text" class="form-control form-control-lg" id="email" name="email" placeholder="Email">
-                                <div id="input-error-email" class="warning-contact"></div>
-                            </div>
+                    <div class="wow fadeInRight" data-wow-delay="0.7s">
+                        <h3>Envíe su consulta</h3>
+                        <div class="mt-4">
+                            <form name="form" method="POST" role="form" id="contactForm">
+                                <div class="form-group">
+                                    <input type="text" class="form-control form-control-lg" id="name" name="name" placeholder="Nombre">
+                                    <div id="input-error-name" class="warning-contact"></div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control form-control-lg" id="phone" name="phone" placeholder="Teléfono">
+                                    <div id="input-error-phone" class="warning-contact"></div>
+                                </div> 
+                                <div class="form-group">
+                                    <input type="text" class="form-control form-control-lg" id="email" name="email" placeholder="Email">
+                                    <div id="input-error-email" class="warning-contact"></div>
+                                </div>
 
-                            <div class="form-group">
-                                <select name="service" class="form-control form-control-lg">
-                                    <option selected>Tipo de Servicio...</option>
-                                    <option>Diseño/Desarrollo Web</option>
-                                    <option>Community Manager</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <textarea class="form-control form-control-lg" id="message" rows="7" name="message" placeholder="Mensaje"></textarea>
-                                <div id="input-error-message" class="warning-contact"></div>
-                            </div>
-                            <!-- div class="alert alert-success">
-                                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                                <strong>Su mensaje se ha enviado con éxito!</strong>
-                            </div -->              
-                            <button type="submit" class="btn btn-primary btn-call-contact">Enviar</button>
-                        </form>                                 
+                                <div class="form-group">
+                                    <select name="service" class="form-control form-control-lg">
+                                        <option selected>Tipo de Servicio...</option>
+                                        <option>Diseño/Desarrollo Web</option>
+                                        <option>Redes Sociales</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control form-control-lg" id="message" rows="7" name="message" placeholder="Mensaje"></textarea>
+                                    <div id="input-error-message" class="warning-contact"></div>
+                                </div>
+                                <!-- div class="alert alert-success">
+                                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                                    <strong>Su mensaje se ha enviado con éxito!</strong>
+                                </div -->              
+                                <button type="submit" class="btn btn-primary btn-call-contact">Enviar</button>
+                            </form>                                 
+                        </div>
                     </div>
                 </div>
             </div>
@@ -126,7 +130,7 @@
     </section>
     <!-- Section About Us Three -->
     <section class="section-contact-three">
-        <div class="container">
+        <div class="container wow fadeInUpQuick" data-wow-delay="0.6s">
             <h2>Inicie su proyecto con nosotros</h2>
             <p class="mt-4">Le ofrecemos diferentes medios de contacto</p>
         </div>
@@ -136,7 +140,7 @@
         <section class="footer-info">
             <div class="layer-footer-info">
                 <div class="container">
-                    <div class="row wow fadeIn animated" data-wow-delay="0.5s">
+                    <div class="row wow fadeIn animated" data-wow-delay="0.3s">
                         <div class="col-md-4">
                             <h5>¿Por qué Relsys?</h5>
                             <p>El nombre es el reflejo de lo que hacemos y una declaración de nuestras intenciones. <br> Rel: Reliable | Sys:Systems | Sistemas Confiables <br>Un servicio destinado a ofrecerle las mejores páginas web y la más efectiva publicidad en sus RR.SS</p>
@@ -144,7 +148,7 @@
                         <div class="col-md-4">
                             <div class="follow-us">
                                 <div class="footer-image">
-                                    <img src="images/logo-relsys-white-prueba.svg">
+                                    <img src="images/logo-relsys-white.svg">
                                 </div>
                                 <p class="mt-3">Siguenos en Nuestras Redes Sociales</p>
                                 <div class="social">

@@ -3492,3 +3492,39 @@
   -webkit-animation-name: slideOutUp;
   animation-name: slideOutUp;
 }
+
+/*FadeinUp Slow*/
+@-webkit-keyframes fadeInUpQuick {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 10px, 0);
+            transform: translate3d(0, 10px, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@keyframes fadeInUpQuick {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 10px, 0);
+            transform: translate3d(0, 10px, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+.fadeInUpQuick {
+  -webkit-animation-name: fadeInUpQuick;
+          animation-name: fadeInUpQuick;
+}
+
+

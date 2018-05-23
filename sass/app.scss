@@ -24,7 +24,7 @@ body{
 #navbar-top{
 	.navbar-brand{
 		img{
-			width: 220px;
+			width: 135px;
 		}
 	}
 	.nav-link{
@@ -57,7 +57,7 @@ body{
             transition: all .7s ease;
 	.navbar-brand{
 		img{
-			width: 220px;
+			width: 135px;
 		}
 	}
 	.nav-link{
@@ -89,7 +89,7 @@ body{
             transition: all .7s ease;
 	.navbar-brand{
 		img{
-			width: 220px;
+			width: 135px;
 		}
 	}
 	.nav-link{
@@ -145,7 +145,7 @@ body{
 	p{
 		color: $text-color-light;
 		text-align: center;
-		font-size: 1.05rem;
+		font-size: 1.15rem;
 	}
 	img{
 		width: 100%
@@ -169,7 +169,7 @@ body{
 	p{
 		color: white;
 		text-align: center;
-		font-size: 1.05rem;
+		font-size: 1.15rem;
 	}
 	.call-to-action{
 		text-align: center;
@@ -207,7 +207,7 @@ body{
 		}
 		p{
 			color: $text-color-light;
-			font-size: 1rem;
+			font-size: 1.05rem;
 		}
 		.orange{
 			color: #FF5E3D;
@@ -244,7 +244,7 @@ body{
 	p{
 		text-align: center;
 		color: white;
-		font-size: 1.05rem;
+		font-size: 1.15rem;
 	}
 	.call-to-action{
 		text-align: center;
@@ -269,7 +269,7 @@ body{
 	}
 	p{
 		text-align: center;
-		font-size: 1.05rem;
+		font-size: 1.15rem;
 		color: $text-color-light;
 	}
 	img{
@@ -387,7 +387,7 @@ footer{
 		.follow-us{
 			.footer-image{
 				img{
-					width: 200px;
+					width: 135px;
 				}
 			}
 			p{
@@ -738,7 +738,7 @@ footer{
 
 .section-title-page{
 	background: $primary-color;
-	margin-top: 4.4rem;
+	margin-top: 3.9rem;
 	padding: 1.1rem;
 	h1{
 		font-size: 2rem;
@@ -757,7 +757,7 @@ footer{
 	}
 	.paragraph{
 		color: $text-color-light;
-		font-size: 1.1rem;
+		font-size: 1.15rem;
 		text-align: center;
 		padding: 0 4rem;
 	}
@@ -776,7 +776,7 @@ footer{
 		}
 		p{
 			color: $text-color-light;
-			font-size: 1rem;
+			font-size: 1.05rem;
 		}
 		.red{
 			color: #FF3232;
@@ -833,7 +833,7 @@ footer{
 	}
 	p{
 		color: $text-color-light;
-		font-size: 1.1rem;
+		font-size: 1.15rem;
 	}
 	.col-image{
 		padding-left: 0;
@@ -954,7 +954,7 @@ footer{
 	}
 	p{
 		color: $text-color-light;
-		font-size: 1.1rem;
+		font-size: 1.15rem;
 	}
 	img{
 		width: 90%;
@@ -1081,7 +1081,7 @@ footer{
 	background-size: cover;
 	.layer-section-about-us-four{
 		padding: $section-padding;
-		background:  rgba(#82B440, 0.85);
+		background:  rgba(#82B440, 0.87);
 	}
 	h2{
 		text-align: left;
@@ -1123,7 +1123,7 @@ footer{
 	p{
 		color: $text-color-light; 
 		text-align: center;
-		font-size: 1.1rem;
+		font-size: 1.15rem;
 	}
 	img{
 		width: 77%;
@@ -1192,80 +1192,8 @@ footer{
 	}
 }
 
-/***************************************************************/
-
-
-#accordion{
-	a:hover,a:focus{
-    text-decoration: none;
-    outline: none;
-	}
-}
-#accordion .panel{
-    border: none;
-    border-radius: 0;
-    box-shadow: none;
-    margin-bottom: 0;
-}
-#accordion .panel-heading{
-    padding: 0;
-    border: none;
-    border-radius: 0;
-    background: #fff;
-    position: relative;
-}
-#accordion .panel-title a{
-    display: block;
-    padding: 15px 35px;
-    margin: 0 0 20px 0;
-    background: #fff;
-    font-size: 17px;
-    font-weight: bold;
-    color: $primary-color;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    border-bottom: 2px solid $secondary-color;
-    border-radius: 0 0 0 30px;
-    position: relative;
-}
-#accordion .panel-title a.collapsed{ margin-bottom: 0; }
-#accordion .panel-title a:before,
-#accordion .panel-title a.collapsed:before{
-    content: "\f068";
-    font-family: fontawesome;
-    font-size: 18px;
-    font-weight: normal;
-    color: $primary-color;
-    position: absolute;
-    top: 15px;
-    right: 17px;
-    transition: all 0.3s ease 0s;
-}
-#accordion .panel-title a.collapsed:before{ content: "\f067"; }
-#accordion .panel-title a:after{
-    content: "";
-    border-top: 15px solid $secondary-color;
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;
-    position: absolute;
-    bottom: -15px;
-    left: 15%;
-}
-#accordion .panel-title a.collapsed:after{ display: none; }
-#accordion .panel-body{
-    padding: 20px 30px;
-    background: white;
-    border: none;
-    font-size: 15px;
-    color: #fff;
-    line-height: 28px;
-    letter-spacing: 1px;
-    border-radius: 30px;
-}
-
-/***************************************************************/
-
 @import 'timeline'; 
 @import 'dropdown';   
+@import 'nav-tabs';   
 @import 'form';   
    

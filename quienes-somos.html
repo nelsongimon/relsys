@@ -14,7 +14,7 @@
     <!-- Navbar -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-inverse fadeInDown animated">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="images/logo-relsys-prueba.svg"></a>
+            <a class="navbar-brand" href="#"><img src="images/logo-relsys-red.svg"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -52,40 +52,22 @@
     <!-- Section About Us One -->
     <section class="section-about-us-one">
         <div class="container">
-            <div class="row">
+            <div class="row wow fadeInUpQuick" data-wow-delay="0.5s">
                 <div class="col-md-4 offset-md-1">
                     <img src="images/presentation_2.svg">
                 </div>
-                <div class="col-md-6">
-                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingOne">
-                                <h4 class="panel-title">
-                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        <i class="icon fa fa-bullseye"></i>
-                                        Nuestra Misión
-                                    </a>
-                                </h4>
+                <div class="col-md-6">  
+                    <div id="default-tab" class="mt-10">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li class="nav-item"><a class="nav-link active" href="#mision" aria-controls="mision" role="tab" data-toggle="tab" aria-expanded="true">Nuestra Misión</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#vision" aria-controls="vision" role="tab" data-toggle="tab" aria-expanded="false">Nuestra Visión</a></li>
+                        </ul>
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane active" id="mision" aria-expanded="true">
+                                <p>Ofrecer soluciones tecnológicas a nuestros clientes para satisfacer las necesidades en su área de trabajo. Aportando una eficaz planificación, estrategias adecuadas y brindar un servicio de calidad en conjunto con el aporte de ideas y acciones para mantener su presencia en internet y redes sociales.</p>
                             </div>
-                            <div id="collapseOne" class="panel-collapse collapse in collapse show" role="tabpanel" aria-labelledby="headingOne">
-                                <div class="panel-body">
-                                    <p>Ofrecer soluciones tecnológicas a nuestros clientes para satisfacer sus necesidades en su área de trabajo. Aportando una eficaz planificación, estrategias adecuadas y brindar un servicio de calidad en conjunto con el aporte de ideas y acciones para mantener su presencia en internet y redes sociales.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingTwo">
-                                <h4 class="panel-title">
-                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        <i class="icon fa fa-eye"></i>
-                                        Nuestra Visión
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                                <div class="panel-body">
-                                    <p>Ser una organización reconocida por la calidad de sus servicios en el mercado de desarrollo web y publicidad digital a nivel nacional e internacional, respaldados por un equipo de profesionales apasionados por la programación y el marketing digital, con el uso de herramientas tecnológicas innovadoras y de gestión.</p>
-                                </div>
+                            <div role="tabpanel" class="tab-pane" id="vision" aria-expanded="false">
+                                <p>Ser una organización reconocida por la calidad de sus servicios en el mercado de desarrollo web y publicidad digital a nivel nacional e internacional, respaldados por un equipo de profesionales apasionados por la programación y el marketing digital, con el uso de herramientas tecnológicas innovadoras y de gestión.</p>
                             </div>
                         </div>
                     </div>
@@ -98,18 +80,18 @@
         <div class="layer-section-about-us-two">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-7 offset-md-1">
+                    <div class="col-md-7 offset-md-1 wow fadeInLeft" data-wow-delay="0.6s">
                         <h2>Nuestros Objetivos</h2>
                         <ul class="mt-3">
                             <li><i class="fa fa-check" aria-hidden="true"></i>&nbsp; <strong>Ofrecer</strong> un servicio de calidad acorde con las necesidades de nuestros clientes</li>
                             <li><i class="fa fa-check" aria-hidden="true"></i>&nbsp; <strong>Adaptar</strong> nuestro trabajo a las exigencias digitales de la actualidad</li>
-                            <li><i class="fa fa-check" aria-hidden="true"></i>&nbsp; <strong>Brindar</strong> una atención personalidad y eficiente</li>
-                            <li><i class="fa fa-check" aria-hidden="true"></i> <strong>Desarrollar</strong> Páginas Web innovadoras y comunicativas</li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i>&nbsp; <strong>Brindar</strong> una atención personalizadad y eficiente</li>
+                            <li><i class="fa fa-check" aria-hidden="true"></i>&nbsp; <strong>Desarrollar</strong> Páginas Web innovadoras y comunicativas</li>
                             <li><i class="fa fa-check" aria-hidden="true"></i>&nbsp; <strong>Afianzar</strong> la presencia de nuestros  clientes en internet</li>
                             <li><i class="fa fa-check" aria-hidden="true"></i>&nbsp; <strong>Maximizar</strong> los resultados obtenido</li>
                         </ul>
                     </div>
-                    <div class="col-md-3 image-content">
+                    <div class="col-md-3 image-content wow fadeInRight" data-wow-delay="0.6s">
                         <img src="images/verification-check.svg">
                     </div>
                 </div>
@@ -120,7 +102,7 @@
     <section class="section-about-us-three">
         <div class="container">
             <div class="row">
-                <article class="row">
+                <article class="row wow fadeInUpQuick" data-wow-delay="0.5s">
                     <div class="col-md-3">
                         <h3>¿Quiénes somos?</h3>
                         <div class="separator-about"></div>
@@ -129,7 +111,7 @@
                         <p>Somos una agencia que se especializa en el Diseño, Desarrollo Web  y Marketing Online enfocado en la publicidad en redes sociales formada por un equipo de profesionales dinámicos, creativos e innovadores.</p>
                     </div>
                 </article>
-                <article class="row mt-3">
+                <article class="row mt-3 wow fadeInUpQuick" data-wow-delay="0.7s">
                     <div class="col-md-3">
                         <h3>¿Qué hacemos?</h3>
                         <div class="separator-about"></div>
@@ -138,7 +120,7 @@
                         <p>Realizamos la planificación y desarrollo de sus campañas de publicidad en redes sociales a través de la gestión y administración efectiva de las mismas. Además le ofrecemos un servicio de desarrollo y diseño de páginas web asociado a su imagen corporativa con el fin de destacar la presencia de su negocio en internet.</p>
                     </div>
                 </article>
-                <article class="row mt-3">
+                <article class="row mt-3 wow fadeInUpQuick" data-wow-delay="0.9s">
                     <div class="col-md-3">
                         <h3>¿En qué creemos?</h3>
                         <div class="separator-about"></div>
@@ -155,7 +137,7 @@
         <div class="layer-section-about-us-four">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-5 offset-md-1">
+                    <div class="col-md-5 offset-md-1 wow fadeIn" data-wow-delay="0.5s">
                         <h2>Atención personalizada</h2>
                         <p class="mt-4">Entendiendo sus necesidades le ayudamos a los desafíos y oportunidades más importantes para su negocio. Brindamos atención personalizada en la que podrá exponer sus objetivos comerciales y le ayudaremos a desarrollar las mejores estrategias para garantizar el éxito</p>
                     </div>
@@ -168,9 +150,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 offset-md-2">
-                    <h3>Sin importar donde se encuentre, en Relsys le podemos ofrecer soluciones creativas e innovadoras</h3>
+                    <h3 class="wow fadeInDown" data-wow-delay="0.5s">Sin importar donde se encuentre, en Relsys le podemos ofrecer soluciones creativas e innovadoras</h3>
                     <div class="call-to-action mt-4">
-                        <a href="#" class="btn btn-primary btn-call">Solicite su presupuesto</a>
+                        <a href="contacto.html" class="btn btn-primary btn-call">Solicite su presupuesto</a>
                     </div>
                 </div>
             </div>
@@ -181,7 +163,7 @@
         <section class="footer-info">
             <div class="layer-footer-info">
                 <div class="container">
-                    <div class="row wow fadeIn animated" data-wow-delay="0.5s">
+                    <div class="row wow fadeIn animated" data-wow-delay="0.3s">
                         <div class="col-md-4">
                             <h5>¿Por qué Relsys?</h5>
                             <p>El nombre es el reflejo de lo que hacemos y una declaración de nuestras intenciones. <br> Rel: Reliable | Sys:Systems | Sistemas Confiables <br>Un servicio destinado a ofrecerle las mejores páginas web y la más efectiva publicidad en sus RR.SS</p>
@@ -189,7 +171,7 @@
                         <div class="col-md-4">
                             <div class="follow-us">
                                 <div class="footer-image">
-                                    <img src="images/logo-relsys-white-prueba.svg">
+                                    <img src="images/logo-relsys-white.svg">
                                 </div>
                                 <p class="mt-3">Siguenos en Nuestras Redes Sociales</p>
                                 <div class="social">
