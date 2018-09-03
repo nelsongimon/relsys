@@ -1,0 +1,103 @@
+@media screen and (max-width: 991px) {
+
+}
+
+/**************************************************************/
+
+@media screen and (max-width: 767px) {
+
+}
+
+/******************************************************/
+
+@media screen and (max-width: 480px) {
+
+}
+
+/*******************************************************/
+
+@media screen and (max-width: 380px) {
+
+}
+
+/****************************************************/
+
+@media screen and (max-width: 320px) {
+	.section-home-one{
+		padding: $section-padding-small;
+		h2{
+			font-size: 1.5rem;
+		}
+		p{
+			font-size: 1.1rem;
+		}
+	}
+	.section-home-two{
+		background-image: url('../images/section-home-two-small.jpeg');
+		.layer-section-home-two{
+			padding: $section-padding-small;
+		}
+		h2{
+			font-size: 1.5rem;
+		}
+		p{
+			font-size: 1.1rem;
+		}
+	}
+	.section-home-three{
+		padding: $section-padding-small;
+		h2{
+			font-size: 1.5rem;
+		}
+		article{
+			h3{
+				font-size: 1.2rem;
+			}
+			p{
+				font-size: 1rem;
+			}
+		}
+	}
+	.section-home-four{
+		background-image: url('../images/section-home-four-small.jpg');
+		.layer-section-home-four{
+			padding: $section-padding-small;
+		}
+		h2{
+			font-size: 1.5rem;
+		}
+		p{
+			font-size: 1.1rem;
+		}
+	}
+	.section-home-five{
+		padding: $section-padding-small;
+		h2{
+			font-size: 1.5rem;
+		}
+		p{
+			font-size: 1.1rem;
+		}
+	}
+	.section-home-six{
+		.layer-section-home-six{
+			padding: $section-padding-small;
+		}
+		h3{
+			font-size: 1.3rem;
+		}
+	}
+	.section-home-seven{
+		padding: $section-padding-small;
+		h2{
+			font-size: 1.5rem;
+		}
+	}
+	footer{
+		.footer-info{
+			.layer-footer-info{
+				padding: 3.5rem 0;
+			} 
+		}
+	}
+}

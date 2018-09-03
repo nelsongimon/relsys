@@ -1,3 +1,4 @@
+
 const gulp = require('gulp')
 const sass = require('gulp-sass')
 
@@ -8,7 +9,7 @@ gulp.task('styles', () => {
 	})
 
 gulp.task('default', () => {
-		gulp.watch('sass/app.scss', ['styles'], () => {
+		gulp.watch(['sass/app.scss', 'sass/_responsive.scss'], ['styles'], () => {
 			console.log('watching css changes...')
 		})
 	})

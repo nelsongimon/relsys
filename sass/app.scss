@@ -24,7 +24,7 @@ body{
 #navbar-top{
 	.navbar-brand{
 		img{
-			width: 135px;
+			width: 149px;
 		}
 	}
 	.nav-link{
@@ -57,7 +57,7 @@ body{
             transition: all .7s ease;
 	.navbar-brand{
 		img{
-			width: 135px;
+			width: 149px;
 		}
 	}
 	.nav-link{
@@ -89,7 +89,7 @@ body{
             transition: all .7s ease;
 	.navbar-brand{
 		img{
-			width: 135px;
+			width: 149px;
 		}
 	}
 	.nav-link{
@@ -136,8 +136,9 @@ body{
 }
 
 .section-home-one{
-	padding: $section-padding;
+	padding: $section-padding; 
 	h2{
+		font-size: 2rem; 
 		color: $text-color;
 		text-align: center;
 		text-transform: uppercase;
@@ -155,7 +156,7 @@ body{
 	background-image: url('../images/section-home-two.jpeg');
 	background-size: cover;
 	background-attachment: fixed;
-	.layer-section-home-two{
+	.layer-section-home-two{  
 		background: rgba(0,0,0,0.1);
 		padding: $section-padding;
 
@@ -190,7 +191,7 @@ body{
 		font-size: 2rem;
 		color: $text-color;
 		text-align: center;
-		text-transform: uppercase;
+		text-transform: uppercase; 
 	}
 	article{
 		padding: 0 1.5rem;
@@ -231,8 +232,8 @@ body{
 	background-image: url('../images/section-home-four.jpg');
 	background-size: cover;
 	.layer-section-home-four{
-		background: rgba(0,0,0,0.8);
-		padding: $section-padding;
+		background: rgba(0,0,0,0.8);  
+		padding: $section-padding; 
 
 	}
 	h2{
@@ -292,11 +293,11 @@ body{
 	background-image: url('../images/funky-lines.png');
 	background-attachment: fixed;
 	.layer-section-home-six{
-		background: rgba(#003B67, 0.8); 
+		background: rgba(#003B67, 0.8);  
 		padding: $section-padding;
 	}
 	h3{
-		color: white;
+		color: white; 
 		text-align: center;
 		font-size: 1.5rem;
 		line-height: 2.2rem;
@@ -318,7 +319,8 @@ body{
 .section-home-seven{
 	padding: $section-padding;
 	h2{
-		color: $text-color;
+		font-size: 2rem;
+		color: $text-color; 
 		text-align: center;
 		text-transform: uppercase;
 	}
@@ -738,7 +740,7 @@ footer{
 
 .section-title-page{
 	background: $primary-color;
-	margin-top: 3.9rem;
+	margin-top: 3.3rem;
 	padding: 1.1rem;
 	h1{
 		font-size: 2rem;
@@ -892,7 +894,7 @@ footer{
 
 .section-services-web-five{
 	padding: $section-padding;
-	background: #F7F7F7;
+	background: white;
 	h2{
 		text-align: center;
 		font-size: 2rem;
@@ -935,10 +937,118 @@ footer{
 		   -moz-transition: all .5s ease;
 		    -ms-transition: all .5s ease;
 		     -o-transition: all .5s ease;
-		        transition: all .5s ease;
+		        transition: all .5s ease; 
 		&:hover{
 			filter: none;
 		}
+	}
+}
+
+.section-services-web-seven{ 
+	background-image: url('../images/section-web-services-seven-image.jpeg');
+	background-size: cover;
+	.layer-section-services-web-seven{
+		background: rgba(rgb(32, 32, 32), 0.80); 
+		padding: $section-padding;
+	}
+	h2{
+		text-align: center;
+		font-size: 2rem;
+		text-transform: uppercase;
+		color: white;
+	}
+	h4{
+		text-align: center;
+		font-size: 1.4rem;
+		font-weight: 700;
+		color: white;
+		margin-bottom: 2rem;
+	}
+	.image-container{
+		text-align: center;
+		margin-bottom: 1rem;
+		img{
+			width: 100px;
+		}
+	}
+	.call-to-action{
+		text-align: center;
+	}
+	p{
+		color: white;
+		font-size: 1.15rem;
+		text-align: center;
+		padding: 0 4rem;
+	}
+	.col-content{
+		margin-bottom: 25px;
+	}
+	article{
+		padding: 0 1rem;
+		.content{
+			padding: 1.7rem 3rem;
+			border: 2px solid #f1f1f1;
+			border-top: 3px solid $primary-color;
+			border-radius: 5px;
+			box-shadow: 1px 3px 5px rgba(0,0,0,0.05);
+			.content-title{
+				padding: 0 1.7rem;
+			}
+		}
+	}
+	.modal-content {
+		padding: 1.2rem 1.8rem;
+		border: none;
+		border-top: 3px solid $primary-color;
+		border-radius: 0.3rem;
+		.content-title{
+			padding: 0 2.5rem;
+		}
+		.modal-body {
+			padding: 0;
+		}
+		.modal-footer {
+			padding: 0;
+			border-top: none;
+		}
+	}
+	h3{
+		text-align: center;
+		font-size: 1.5rem;
+		color: $primary-color;
+		font-weight: 700;
+		border-bottom: 1px dashed $primary-color;
+		padding-bottom: 1rem; 
+	}
+	ul {
+		padding: 0;
+		li{
+			font-size: 1.1rem;
+			list-style-type: none;
+			color: $text-color-light;
+			padding-bottom: 3px;
+			i{
+				color: $primary-color;
+			}
+		}
+	}
+}
+
+.section-social-media-two{
+	background: rgba(#82B440, 0.8); 
+	padding: $section-padding; 
+	h3{
+		color: $text-color;
+		text-align: center;
+		font-size: 1.6rem;
+		line-height: 2.2rem;
+		text-transform: uppercase;
+		font-style: italic;
+	}
+	p{
+		text-align: center;
+		color: $text-color;
+		font-size: 1.2rem;
 	}
 }
 
@@ -999,6 +1109,96 @@ footer{
 		color: $text-color-light;
 		font-size: 1.2rem;
 		font-style: italic;
+	}
+}
+
+.section-services-social-six{ 
+	background-image: url('../images/section-social-media-six-image.jpg');
+	background-size: cover;
+	.layer-section-services-web-six{
+		background: rgba(rgb(32, 32, 32), 0.85);
+		padding: $section-padding;
+	}
+	h2{
+		text-align: center;
+		font-size: 2rem;
+		text-transform: uppercase;
+		color: white;
+	}
+	h4{
+		text-align: center;
+		font-size: 1.4rem;
+		font-weight: 700;
+		color: white;
+		margin-bottom: 2rem;
+	}
+	.image-container{
+		text-align: center;
+		margin-bottom: 1rem;
+		img{
+			width: 100px;
+		}
+	}
+	.call-to-action{
+		text-align: center;
+	}
+	p{
+		color: white;
+		font-size: 1.15rem;
+		text-align: center;
+		padding: 0 4rem;
+	}
+	.col-content{
+		margin-bottom: 25px;
+	}
+	article{
+		padding: 0 1rem;
+		.content{
+			padding: 1.7rem 3rem;
+			border: 2px solid #f1f1f1;
+			border-top: 3px solid $primary-color;
+			border-radius: 5px;
+			box-shadow: 1px 3px 5px rgba(0,0,0,0.05);
+			.content-title{
+				padding: 0 1.7rem;
+			}
+		}
+	}
+	.modal-content {
+		padding: 1.2rem 1.8rem;
+		border: none;
+		border-top: 3px solid $primary-color;
+		border-radius: 0.3rem;
+		.content-title{
+			padding: 0 2.5rem;
+		}
+		.modal-body {
+			padding: 0;
+		}
+		.modal-footer {
+			padding: 0;
+			border-top: none;
+		}
+	}
+	h3{
+		text-align: center;
+		font-size: 1.5rem;
+		color: $primary-color;
+		font-weight: 700;
+		border-bottom: 1px dashed $primary-color;
+		padding-bottom: 1rem; 
+	}
+	ul {
+		padding: 0;
+		li{
+			font-size: 1.1rem;
+			list-style-type: none;
+			color: $text-color-light;
+			padding-bottom: 3px;
+			i{
+				color: $primary-color;
+			}
+		}
 	}
 }
 
@@ -1192,8 +1392,21 @@ footer{
 	}
 }
 
-@import 'timeline'; 
+.btn-primary:active{
+	color: #fff;
+    background-color: $primary-color !important;
+    border-color: $primary-color !important;
+}
+.dropdown-item:active{
+	color: #fff;
+    background-color: $primary-color !important;
+}
+
+@import 'timeline';  
 @import 'dropdown';   
 @import 'nav-tabs';   
 @import 'form';   
+@import 'responsive';  
+
+
    

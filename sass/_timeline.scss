@@ -10,6 +10,7 @@
   content: "";
   width: 2px;
   background-color: $primary-color;
+  background-color: rgb(31, 31, 31);
   left: 40px;
   margin-left: -1.5px;
 }
@@ -56,10 +57,10 @@
   height: 80px;
   position: absolute;
   z-index: 100;
-  background-color: $primary-color; 
+  background-color: rgb(31, 31, 31); 
   color: white;
   border-radius: 100%;
-  border: 7px solid $primary-color;
+  border: 7px solid rgb(31, 31, 31);
   text-align: center;
 }
 .timeline > li .timeline-image h4 {

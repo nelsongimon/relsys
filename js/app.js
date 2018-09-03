@@ -86,7 +86,7 @@ $(function(){
 
     $('.dropdown-toggle').mouseover(function() {
         $('.dropdown-menu').show();
-    })
+    });
 
     $('.dropdown-toggle').mouseout(function() {
         t = setTimeout(function() {
@@ -99,7 +99,6 @@ $(function(){
         }).on('mouseleave', function() {
             $('.dropdown-menu').hide();
         })
-    });
-
+	});
 })
 
