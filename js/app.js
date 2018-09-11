@@ -4,6 +4,7 @@ $(window).on('load', function(){
 });
 
 $(function(){
+	if($(window).width() < 992) return false;
 	$('#article-blue').mouseenter(function(){
 		$('.radar-blue').css('display', 'block');
 		$('#article-blue h3').css('color', '#07AAA5');
@@ -52,8 +53,9 @@ $(function(){
 		$('.radar-blue-light').css('display', 'none');
 		$('#article-blue-light h3').css('color', '#2F2F2F');
 	});
+})
 
-
+$(function(){
 	$('.section-home-seven a').mouseenter(function(){
 		$(this).addClass('selected');
 	});
@@ -67,6 +69,7 @@ $(function(){
 	});
 
 	var offset = 200;
+	if($(window).width() < 767) var offset = 10;
 	$(window).scroll(function() {
 		if ($(this).scrollTop() > offset) {
 			$('#navbar-top').css('display', 'none');

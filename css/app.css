@@ -6526,6 +6526,15 @@ body {
   #navbar-top .nav-link:hover {
     color: #E60012 !important; }
 
+#navbar-top .navbar-toggler .navbar-toggler-icon {
+  color: white !important;
+  font-size: 1.8rem;
+  width: 100%;
+  height: 100%; }
+
+#navbar-top .dropdown-item {
+  text-transform: uppercase; }
+
 #navbar-inverse {
   display: none;
   background: white;
@@ -6552,6 +6561,13 @@ body {
     transition: all .25s ease; }
     #navbar-inverse .nav-link:hover {
       color: #E60012 !important; }
+  #navbar-inverse .navbar-toggler .navbar-toggler-icon {
+    color: #E60012 !important;
+    font-size: 1.8rem;
+    width: 100%;
+    height: 100%; }
+  #navbar-inverse .dropdown-item {
+    text-transform: uppercase; }
 
 .navbar-inverse {
   background: white;
@@ -6565,6 +6581,11 @@ body {
   transition: all .7s ease; }
   .navbar-inverse .navbar-brand img {
     width: 149px; }
+  .navbar-inverse .navbar-toggler .navbar-toggler-icon {
+    color: #E60012 !important;
+    font-size: 1.8rem;
+    width: 100%;
+    height: 100%; }
   .navbar-inverse .nav-link {
     text-transform: uppercase;
     font-size: 1rem;
@@ -6578,6 +6599,8 @@ body {
     transition: all .25s ease; }
     .navbar-inverse .nav-link:hover {
       color: #E60012 !important; }
+  .navbar-inverse .dropdown-item {
+    text-transform: uppercase; }
 
 .section-carousel {
   background: black; }
@@ -7957,9 +7980,1280 @@ ul.nav-tabs li a {
   .form-control select {
     height: 47px; }
 
+@media screen and (max-width: 1100px) {
+  .radar-orange {
+    top: 11%; }
+  .radar-green {
+    top: 11%; }
+  .radar-purple {
+    top: 11%; }
+  .radar-red {
+    top: 11%; }
+  .radar-blue {
+    top: 11%; }
+  .radar-blue-light {
+    top: 11%; }
+  .section-carousel .carousel .carousel-caption {
+    bottom: 120px; }
+    .section-carousel .carousel .carousel-caption h1 {
+      font-size: 2.1rem; }
+    .section-carousel .carousel .carousel-caption p {
+      font-size: 1.1rem; }
+    .section-carousel .carousel .carousel-caption .call-to-action {
+      margin-top: 2rem; }
+  .section-carousel .carousel .carousel-indicators {
+    bottom: 30px; } }
+
+@media screen and (max-width: 1000px) {
+  .radar-orange {
+    top: 12%; }
+  .radar-green {
+    top: 12%; }
+  .radar-purple {
+    top: 12%; }
+  .radar-red {
+    top: 12%; }
+  .radar-blue {
+    top: 12%; }
+  .radar-blue-light {
+    top: 12%; }
+  .section-carousel .carousel .carousel-caption {
+    bottom: 90px; }
+    .section-carousel .carousel .carousel-caption h1 {
+      font-size: 1.7rem; }
+    .section-carousel .carousel .carousel-caption p {
+      font-size: 1rem; }
+    .section-carousel .carousel .carousel-caption .call-to-action {
+      margin-top: 2rem; }
+  .section-carousel .carousel .carousel-indicators {
+    bottom: 20px; } }
+
+@media screen and (max-width: 991px) {
+  .section-home-one {
+    padding: 4.5rem 0; }
+    .section-home-one h2 {
+      font-size: 1.5rem; }
+    .section-home-one p {
+      font-size: 1rem; }
+  .section-home-two {
+    background-image: url("../images/section-home-two-small.jpeg"); }
+    .section-home-two .layer-section-home-two {
+      padding: 4.5rem 0; }
+    .section-home-two h2 {
+      font-size: 1.5rem; }
+    .section-home-two p {
+      font-size: 1rem; }
+  .section-home-three {
+    padding: 4.5rem 0; }
+    .section-home-three h2 {
+      font-size: 1.5rem; }
+    .section-home-three article h3 {
+      font-size: 1.3rem; }
+    .section-home-three article p {
+      font-size: 0.95rem; }
+  .section-home-four {
+    background-image: url("../images/section-home-four-small.jpg"); }
+    .section-home-four .layer-section-home-four {
+      padding: 4.5rem 0; }
+    .section-home-four h2 {
+      font-size: 1.5rem; }
+    .section-home-four p {
+      font-size: 1rem; }
+  .section-home-five {
+    padding: 4.5rem 0; }
+    .section-home-five h2 {
+      font-size: 1.5rem; }
+    .section-home-five p {
+      font-size: 1rem; }
+  .section-home-six .layer-section-home-six {
+    padding: 4.5rem 0; }
+  .section-home-six h3 {
+    font-size: 1.5rem; }
+  .section-home-seven {
+    padding: 4.5rem 0; }
+    .section-home-seven h2 {
+      font-size: 1.5rem; }
+    .section-home-seven h3 {
+      font-size: 1.2rem; }
+    .section-home-seven p {
+      font-size: 1rem; }
+  footer .footer-info h5 {
+    font-size: 1.1rem; }
+  footer .footer-info p {
+    font-size: 1rem; }
+  footer .footer-info .follow-us p {
+    font-size: 1.1rem; }
+  footer .footer-info .follow-us .social .fa {
+    font-size: 1.6rem; }
+  footer .footer-info .footer-detalis h6 {
+    font-size: 1.1rem; }
+  footer .footer-info .footer-detalis p {
+    font-size: 1rem; }
+  footer .footer-copyright h6 {
+    font-size: 1.05rem; }
+  .section-title-page {
+    margin-top: 3.4rem;
+    padding: 0.7rem; }
+    .section-title-page h1 {
+      font-size: 1.8rem; }
+  .section-about-us-one {
+    padding: 4.5rem 0; }
+    .section-about-us-one p {
+      font-size: 1rem; }
+  ul.nav-tabs li a {
+    font-size: 17px; }
+  .section-about-us-two .layer-section-about-us-two {
+    padding: 4.5rem 0; }
+  .section-about-us-two h2 {
+    text-align: center;
+    font-size: 1.5rem; }
+  .section-about-us-two ul {
+    font-size: 1rem; }
+  .section-about-us-three {
+    padding: 4.5rem 0; }
+    .section-about-us-three article h3 {
+      font-size: 1rem; }
+    .section-about-us-three article p {
+      font-size: 0.95rem; }
+  .section-about-us-four .layer-section-about-us-four {
+    padding: 4.5rem 0; }
+  .section-about-us-four h2 {
+    font-size: 1.7rem; }
+  .section-about-us-four p {
+    font-size: 1.2rem;
+    line-height: 1.7rem; }
+  .section-about-us-five {
+    padding: 4.5rem 0; }
+    .section-about-us-five h3 {
+      font-size: 1.5rem;
+      line-height: 2rem;
+      text-align: center; }
+  .section-services-web-one {
+    padding: 4.5rem 0; }
+    .section-services-web-one h2 {
+      font-size: 1.5rem; }
+    .section-services-web-one .paragraph {
+      font-size: 1rem;
+      padding: 0 0.5rem; }
+    .section-services-web-one article h3 {
+      color: #2F2F2F;
+      font-size: 1.3rem; }
+    .section-services-web-one article p {
+      font-size: 0.95rem; }
+    .section-services-web-one article .fa-lg {
+      font-size: 2rem; }
+  .section-services-web-seven {
+    background-image: url("../images/section-web-services-seven-image.jpeg"); }
+    .section-services-web-seven .layer-section-services-web-seven {
+      padding: 4.5rem 0; }
+    .section-services-web-seven h2 {
+      font-size: 1.5rem; }
+    .section-services-web-seven h4 {
+      font-size: 1.2rem;
+      margin-bottom: 2rem; }
+    .section-services-web-seven .image-container {
+      margin-bottom: 1rem; }
+    .section-services-web-seven .call-to-action {
+      margin-bottom: 2rem; }
+    .section-services-web-seven p {
+      font-size: 1rem;
+      padding: 0 0.5rem; }
+    .section-services-web-seven .col-content {
+      margin-bottom: 25px; }
+    .section-services-web-seven article {
+      padding: 0 1rem; }
+      .section-services-web-seven article .content .content-title {
+        padding: 0 1.7rem; }
+    .section-services-web-seven .modal-content .content-title {
+      padding: 0 1.7rem; }
+    .section-services-web-seven .modal-content .modal-footer .btn-call {
+      font-size: 1.3rem;
+      padding: 0.20rem 1rem; }
+    .section-services-web-seven h3 {
+      font-size: 1.5rem;
+      padding-bottom: 1.35rem; }
+    .section-services-web-seven ul li {
+      font-size: 1.1rem;
+      padding-bottom: 2px; }
+  .section-services-web-three {
+    padding: 4.5rem 0; }
+    .section-services-web-three h2 {
+      font-size: 1.5rem; }
+    .section-services-web-three p {
+      font-size: 1rem; }
+    .section-services-web-three article .col-icon {
+      padding-left: 0rem; }
+    .section-services-web-three article h3 {
+      font-size: 1rem; }
+    .section-services-web-three article p {
+      font-size: 1rem; }
+    .section-services-web-three article i {
+      display: none; }
+  .section-services-web-two .layer-section-services-web-two {
+    padding: 4.5rem 0; }
+  .section-services-web-two h3 {
+    font-size: 1.5rem;
+    line-height: 2rem; }
+  .section-services-web-two p {
+    font-size: 1.5rem; }
+  .section-services-web-five {
+    padding: 4.5rem 0; }
+    .section-services-web-five h2 {
+      font-size: 1.5rem; }
+    .section-services-web-five h4 {
+      font-size: 1.1rem;
+      margin-bottom: 0rem; }
+  .section-services-web-four .layer-section-services-web-four {
+    padding: 4.5rem 0; }
+  .section-services-web-four h3 {
+    font-size: 1.1rem;
+    line-height: 1.5rem; }
+  .section-services-web-four h4 {
+    font-size: 1.1rem;
+    line-height: 2rem; }
+  .section-services-web-six {
+    padding: 4.5rem 0; }
+    .section-services-web-six h2 {
+      font-size: 1.5rem; }
+    .section-services-web-six p {
+      font-size: 1rem; }
+  .section-services-social-six {
+    background-image: url("../images/section-social-media-six-image.jpg"); }
+    .section-services-social-six .section-services-social-six {
+      padding: 4.5rem 0; }
+    .section-services-social-six h2 {
+      font-size: 1.5rem; }
+    .section-services-social-six h4 {
+      font-size: 1.2rem;
+      margin-bottom: 2rem; }
+    .section-services-social-six .image-container {
+      margin-bottom: 1rem; }
+    .section-services-social-six .call-to-action {
+      margin-bottom: 2rem; }
+    .section-services-social-six p {
+      font-size: 1rem;
+      padding: 0 1rem; }
+    .section-services-social-six .col-content {
+      margin-bottom: 25px; }
+    .section-services-social-six article {
+      padding: 0 1rem; }
+      .section-services-social-six article .content .content-title {
+        padding: 0 1.7rem; }
+    .section-services-social-six .modal-content .content-title {
+      padding: 0 1.7rem; }
+    .section-services-social-six .modal-content .modal-footer .btn-call {
+      font-size: 1.3rem;
+      padding: 0.2rem 1rem; }
+    .section-services-social-six h3 {
+      font-size: 1.5rem;
+      padding-bottom: 1.35rem; }
+    .section-services-social-six ul li {
+      font-size: 1.1rem;
+      padding-bottom: 2px; }
+  .section-services-social-three {
+    padding: 4.5rem 0; }
+    .section-services-social-three h2 {
+      text-align: center;
+      font-size: 1.5rem; }
+      .section-services-social-three h2 span {
+        font-size: 1.2rem; }
+    .section-services-social-three p {
+      text-align: center;
+      font-size: 1rem; }
+    .section-services-social-three img {
+      width: 100%; }
+    .section-services-social-three .col-image {
+      text-align: center; }
+  .section-services-social-four .layer-section-services-social-four {
+    padding: 4.5rem 0; }
+  .section-services-social-four h3 {
+    font-size: 1.4rem;
+    line-height: 2rem; }
+  .section-services-social-four h4 {
+    font-size: 1.2rem;
+    line-height: 1.8rem; }
+  .section-services-social-five {
+    padding: 4.5rem 0; }
+    .section-services-social-five h2 {
+      font-size: 1.5rem; }
+    .section-services-social-five p {
+      font-size: 1rem; }
+  .section-contact-one {
+    padding: 4.5rem 0; }
+    .section-contact-one h2 {
+      font-size: 1.5rem; }
+    .section-contact-one p {
+      font-size: 1rem; }
+  .section-contact-two .info-container {
+    padding: 3.7rem 1.2rem; }
+    .section-contact-two .info-container h3 {
+      font-size: 1.3rem; }
+    .section-contact-two .info-container p {
+      font-size: 1rem; }
+    .section-contact-two .info-container ul li {
+      font-size: 1rem;
+      margin-bottom: 0.2rem; }
+    .section-contact-two .info-container .separator-contact {
+      margin-top: 2.2rem;
+      margin-bottom: 2rem; }
+  .section-contact-two .contact-container {
+    padding: 3.7rem 1.2rem; }
+    .section-contact-two .contact-container h3 {
+      font-size: 1.3rem;
+      color: #2F2F2F;
+      text-transform: uppercase; }
+  .section-contact-three {
+    padding: 4.5rem 0; }
+    .section-contact-three h2 {
+      text-align: center;
+      font-size: 1.5rem; }
+    .section-contact-three p {
+      font-size: 1.2rem; }
+  .section-carousel .carousel .carousel-caption {
+    bottom: 60px; }
+    .section-carousel .carousel .carousel-caption h1 {
+      font-size: 1.7rem; }
+    .section-carousel .carousel .carousel-caption p {
+      font-size: 1rem; }
+    .section-carousel .carousel .carousel-caption .call-to-action {
+      margin-top: 1rem; }
+  .section-carousel .carousel .carousel-indicators {
+    bottom: 10px; } }
+
 /**************************************************************/
+@media screen and (max-width: 767px) {
+  .section-home-one {
+    padding: 4rem 0; }
+    .section-home-one h2 {
+      font-size: 2rem; }
+    .section-home-one p {
+      font-size: 1.5rem; }
+  .section-home-two {
+    background-image: url("../images/section-home-two-small.jpeg"); }
+    .section-home-two .layer-section-home-two {
+      padding: 4rem 0; }
+    .section-home-two h2 {
+      font-size: 2rem; }
+    .section-home-two p {
+      font-size: 1.5rem; }
+  .section-home-three {
+    padding: 4rem 0; }
+    .section-home-three h2 {
+      font-size: 2rem; }
+    .section-home-three article h3 {
+      font-size: 1.7rem; }
+    .section-home-three article p {
+      font-size: 1.3rem; }
+  .section-home-four {
+    background-image: url("../images/section-home-four-small.jpg"); }
+    .section-home-four .layer-section-home-four {
+      padding: 4rem 0; }
+    .section-home-four h2 {
+      font-size: 2rem; }
+    .section-home-four p {
+      font-size: 1.5rem; }
+  .section-home-five {
+    padding: 4rem 0; }
+    .section-home-five h2 {
+      font-size: 2rem; }
+    .section-home-five p {
+      font-size: 1.5rem; }
+  .section-home-six .layer-section-home-six {
+    padding: 4rem 0; }
+  .section-home-six h3 {
+    font-size: 1.7rem; }
+  .section-home-seven {
+    padding: 4rem 0; }
+    .section-home-seven h2 {
+      font-size: 2rem; }
+    .section-home-seven h3 {
+      font-size: 1.6rem; }
+    .section-home-seven p {
+      font-size: 1.45rem; }
+  footer .footer-info .layer-footer-info {
+    padding: 3.5rem 0; }
+  footer .footer-info h5 {
+    font-size: 1.6rem; }
+  footer .footer-info p {
+    font-size: 1.35rem; }
+  footer .footer-info .follow-us p {
+    font-size: 1.35rem; }
+  footer .footer-info .follow-us .social .fa {
+    font-size: 2rem; }
+  footer .footer-info .footer-detalis h6 {
+    font-size: 1.5rem; }
+  footer .footer-info .footer-detalis p {
+    font-size: 1.35rem; }
+  footer .footer-copyright {
+    padding: 1rem 0; }
+    footer .footer-copyright h6 {
+      font-size: 1.35rem; }
+  .section-title-page {
+    margin-top: 3.3rem;
+    padding: 0.8rem; }
+    .section-title-page h1 {
+      font-size: 2rem; }
+  .section-about-us-one {
+    padding: 4rem 0; }
+    .section-about-us-one p {
+      text-align: center;
+      font-size: 1.35rem; }
+  ul.nav-tabs li a {
+    font-size: 22px; }
+  .section-about-us-two .layer-section-about-us-two {
+    padding: 4rem 0; }
+  .section-about-us-two h2 {
+    text-align: center;
+    font-size: 2rem; }
+  .section-about-us-two ul {
+    font-size: 1.45rem; }
+  .section-about-us-three {
+    padding: 4rem 0; }
+    .section-about-us-three article h3 {
+      font-size: 1.7rem;
+      text-align: center; }
+    .section-about-us-three article p {
+      font-size: 1.4rem;
+      text-align: center; }
+    .section-about-us-three .separator-about {
+      display: none; }
+  .section-about-us-four .layer-section-about-us-four {
+    padding: 4rem 0; }
+  .section-about-us-four h2 {
+    text-align: center;
+    font-size: 2rem; }
+  .section-about-us-four p {
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 1.7rem; }
+  .section-about-us-five {
+    padding: 4rem 0; }
+    .section-about-us-five h3 {
+      font-size: 1.7rem;
+      line-height: 2.3rem;
+      text-align: center; }
+  .section-services-web-one {
+    padding: 4rem 0; }
+    .section-services-web-one h2 {
+      font-size: 2rem; }
+    .section-services-web-one .paragraph {
+      font-size: 1.5rem;
+      padding: 0 0.5rem; }
+    .section-services-web-one article h3 {
+      color: #2F2F2F;
+      font-size: 1.7rem; }
+    .section-services-web-one article p {
+      font-size: 1.3rem; }
+    .section-services-web-one article .fa-lg {
+      font-size: 2rem; }
+  .section-services-web-seven {
+    background-image: url("../images/section-web-services-seven-image-small.jpeg"); }
+    .section-services-web-seven .layer-section-services-web-seven {
+      padding: 4rem 0; }
+    .section-services-web-seven h2 {
+      font-size: 2rem; }
+    .section-services-web-seven h4 {
+      font-size: 1.6rem;
+      margin-bottom: 2rem; }
+    .section-services-web-seven .image-container {
+      margin-bottom: 1rem; }
+    .section-services-web-seven .call-to-action {
+      margin-bottom: 2rem; }
+    .section-services-web-seven p {
+      font-size: 1.5rem;
+      padding: 0 1rem; }
+    .section-services-web-seven .col-content {
+      margin-bottom: 25px; }
+    .section-services-web-seven article {
+      padding: 0 1rem; }
+      .section-services-web-seven article .content .content-title {
+        padding: 0 1.7rem; }
+    .section-services-web-seven .modal-content .content-title {
+      padding: 0 1.7rem; }
+    .section-services-web-seven .modal-content .modal-footer .btn-call {
+      font-size: 1.3rem;
+      padding: 0.20rem 1rem; }
+    .section-services-web-seven h3 {
+      font-size: 1.7rem;
+      padding-bottom: 1.35rem; }
+    .section-services-web-seven ul li {
+      font-size: 1.25rem;
+      padding-bottom: 2px; }
+  .section-services-web-three {
+    padding: 4rem 0; }
+    .section-services-web-three h2 {
+      font-size: 2rem;
+      text-align: center; }
+    .section-services-web-three p {
+      font-size: 1.5rem;
+      text-align: center; }
+    .section-services-web-three article h3 {
+      font-size: 1.5rem; }
+    .section-services-web-three article p {
+      font-size: 1.5rem; }
+  .section-services-web-two .layer-section-services-web-two {
+    padding: 4rem 0; }
+  .section-services-web-two h3 {
+    font-size: 1.7rem;
+    line-height: 2.1rem; }
+  .section-services-web-two p {
+    font-size: 1.6rem; }
+  .section-services-web-five {
+    padding: 4rem 0; }
+    .section-services-web-five h2 {
+      font-size: 2rem; }
+    .section-services-web-five h4 {
+      font-size: 1.6rem;
+      margin-bottom: 1.5rem; }
+  .section-services-web-four .layer-section-services-web-four {
+    padding: 4rem 0; }
+  .section-services-web-four h3 {
+    font-size: 1.7rem;
+    line-height: 1.8rem; }
+  .section-services-web-four h4 {
+    font-size: 1.5rem;
+    line-height: 2.3rem; }
+  .section-services-web-six {
+    padding: 4rem 0; }
+    .section-services-web-six h2 {
+      font-size: 2rem; }
+    .section-services-web-six p {
+      font-size: 1.5rem; }
+    .section-services-web-six img {
+      margin-bottom: 1.5rem; }
+  .section-services-social-six {
+    background-image: url("../images/section-social-media-six-image-small.jpg"); }
+    .section-services-social-six .section-services-social-six {
+      padding: 4rem 0; }
+    .section-services-social-six h2 {
+      font-size: 2rem; }
+    .section-services-social-six h4 {
+      font-size: 1.6rem;
+      margin-bottom: 2rem; }
+    .section-services-social-six .image-container {
+      margin-bottom: 1rem; }
+    .section-services-social-six .call-to-action {
+      margin-bottom: 2rem; }
+    .section-services-social-six p {
+      font-size: 1.5rem;
+      padding: 0 1rem; }
+    .section-services-social-six .col-content {
+      margin-bottom: 25px; }
+    .section-services-social-six article {
+      padding: 0 1rem; }
+      .section-services-social-six article .content .content-title {
+        padding: 0 1.7rem; }
+    .section-services-social-six .modal-content .content-title {
+      padding: 0 1.7rem; }
+    .section-services-social-six .modal-content .modal-footer .btn-call {
+      font-size: 1.3rem;
+      padding: 0.2rem 1rem; }
+    .section-services-social-six h3 {
+      font-size: 1.7rem;
+      padding-bottom: 1.35rem; }
+    .section-services-social-six ul li {
+      font-size: 1.25rem;
+      padding-bottom: 2px; }
+  .section-services-social-three {
+    padding: 4rem 0; }
+    .section-services-social-three h2 {
+      text-align: center;
+      font-size: 2rem; }
+      .section-services-social-three h2 span {
+        font-size: 1.8rem; }
+    .section-services-social-three p {
+      text-align: center;
+      font-size: 1.5	rem; }
+    .section-services-social-three img {
+      width: 90%; }
+    .section-services-social-three .col-image {
+      text-align: center; }
+  .section-services-social-four .layer-section-services-social-four {
+    padding: 4rem 0; }
+  .section-services-social-four h3 {
+    font-size: 1.8rem;
+    line-height: 2rem; }
+  .section-services-social-four h4 {
+    font-size: 1.8rem;
+    line-height: 2.1rem; }
+  .section-services-social-five {
+    padding: 4rem 0; }
+    .section-services-social-five h2 {
+      font-size: 2rem; }
+    .section-services-social-five p {
+      font-size: 1.5rem; }
+  .timeline > li .timeline-image h4 {
+    font-size: 0.9rem !important; }
+  .timeline > li.timeline-inverted .text-final {
+    font-size: 0.8rem !important; }
+  .timeline > li > .timeline-panel p {
+    font-size: 1.35rem; }
+  .section-contact-one {
+    padding: 4rem 0; }
+    .section-contact-one h2 {
+      font-size: 2rem; }
+    .section-contact-one p {
+      font-size: 1.5rem; }
+  .section-contact-two .info-container {
+    padding: 4rem 2.5rem; }
+    .section-contact-two .info-container h3 {
+      font-size: 1.9rem; }
+    .section-contact-two .info-container p {
+      font-size: 1.5rem; }
+    .section-contact-two .info-container ul li {
+      font-size: 1.5rem;
+      margin-bottom: 0.2rem; }
+    .section-contact-two .info-container .separator-contact {
+      margin-top: 2.2rem;
+      margin-bottom: 2rem; }
+  .section-contact-two .contact-container {
+    padding: 4rem 2.5rem; }
+    .section-contact-two .contact-container h3 {
+      font-size: 1.9rem;
+      color: #2F2F2F;
+      text-transform: uppercase; }
+  .section-contact-three {
+    padding: 4rem 0; }
+    .section-contact-three h2 {
+      text-align: center;
+      font-size: 2rem; }
+    .section-contact-three p {
+      font-size: 1.7rem; }
+  .section-carousel .carousel .carousel-caption {
+    bottom: 190px; }
+    .section-carousel .carousel .carousel-caption h1 {
+      font-size: 2rem; }
+    .section-carousel .carousel .carousel-caption p {
+      font-size: 1.3rem; }
+    .section-carousel .carousel .carousel-caption .call-to-action {
+      margin-top: 3rem; }
+  .section-carousel .carousel .carousel-indicators {
+    bottom: 70px; }
+  #navbar-top .navbar-nav {
+    background-color: white; }
+  #navbar-top .nav-link {
+    color: #2F2F2F !important; } }
+
 /******************************************************/
+@media screen and (max-width: 480px) {
+  .section-home-one {
+    padding: 4rem 0; }
+    .section-home-one h2 {
+      font-size: 1.8rem; }
+    .section-home-one p {
+      font-size: 1.3rem; }
+  .section-home-two {
+    background-image: url("../images/section-home-two-small.jpeg"); }
+    .section-home-two .layer-section-home-two {
+      padding: 4rem 0; }
+    .section-home-two h2 {
+      font-size: 1.8rem; }
+    .section-home-two p {
+      font-size: 1.3rem; }
+  .section-home-three {
+    padding: 4rem 0; }
+    .section-home-three h2 {
+      font-size: 1.8rem; }
+    .section-home-three article h3 {
+      font-size: 1.6rem; }
+    .section-home-three article p {
+      font-size: 1.2rem; }
+  .section-home-four {
+    background-image: url("../images/section-home-four-small.jpg"); }
+    .section-home-four .layer-section-home-four {
+      padding: 4rem 0; }
+    .section-home-four h2 {
+      font-size: 1.8rem; }
+    .section-home-four p {
+      font-size: 1.3rem; }
+  .section-home-five {
+    padding: 4rem 0; }
+    .section-home-five h2 {
+      font-size: 1.8rem; }
+    .section-home-five p {
+      font-size: 1.3rem; }
+  .section-home-six .layer-section-home-six {
+    padding: 4rem 0; }
+  .section-home-six h3 {
+    font-size: 1.5rem; }
+  .section-home-seven {
+    padding: 4rem 0; }
+    .section-home-seven h2 {
+      font-size: 1.8rem; }
+    .section-home-seven h3 {
+      font-size: 1.4rem; }
+    .section-home-seven p {
+      font-size: 1.25rem; }
+  footer .footer-info .layer-footer-info {
+    padding: 3.5rem 0; }
+  footer .footer-info h5 {
+    font-size: 1.5rem; }
+  footer .footer-info p {
+    font-size: 1.25rem; }
+  footer .footer-info .follow-us p {
+    font-size: 1.25rem; }
+  footer .footer-info .follow-us .social .fa {
+    font-size: 1.9rem; }
+  footer .footer-info .footer-detalis h6 {
+    font-size: 1.4rem; }
+  footer .footer-info .footer-detalis p {
+    font-size: 1.25rem; }
+  footer .footer-copyright {
+    padding: 1rem 0; }
+    footer .footer-copyright h6 {
+      font-size: 1.25rem; }
+  .section-title-page {
+    margin-top: 3.3rem;
+    padding: 0.8rem; }
+    .section-title-page h1 {
+      font-size: 2rem; }
+  .section-about-us-one {
+    padding: 4rem 0; }
+    .section-about-us-one p {
+      text-align: center;
+      font-size: 1.25rem; }
+  ul.nav-tabs li a {
+    font-size: 19px; }
+  .section-about-us-two .layer-section-about-us-two {
+    padding: 4rem 0; }
+  .section-about-us-two h2 {
+    text-align: center;
+    font-size: 1.8rem; }
+  .section-about-us-two ul {
+    font-size: 1.25rem; }
+  .section-about-us-three {
+    padding: 4rem 0; }
+    .section-about-us-three article h3 {
+      font-size: 1.5rem;
+      text-align: center; }
+    .section-about-us-three article p {
+      font-size: 1.2rem;
+      text-align: center; }
+    .section-about-us-three .separator-about {
+      display: none; }
+  .section-about-us-four .layer-section-about-us-four {
+    padding: 4rem 0; }
+  .section-about-us-four h2 {
+    text-align: center;
+    font-size: 1.8rem; }
+  .section-about-us-four p {
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: 1.6rem; }
+  .section-about-us-five {
+    padding: 4rem 0; }
+    .section-about-us-five h3 {
+      font-size: 1.5rem;
+      line-height: 2.1rem;
+      text-align: center; }
+  .section-services-web-one {
+    padding: 4rem 0; }
+    .section-services-web-one h2 {
+      font-size: 1.8rem; }
+    .section-services-web-one .paragraph {
+      font-size: 1.3rem;
+      padding: 0 0.5rem; }
+    .section-services-web-one article h3 {
+      color: #2F2F2F;
+      font-size: 1.6rem; }
+    .section-services-web-one article p {
+      font-size: 1.25rem; }
+    .section-services-web-one article .fa-lg {
+      font-size: 2rem; }
+  .section-services-web-seven {
+    background-image: url("../images/section-web-services-seven-image-small.jpeg"); }
+    .section-services-web-seven .layer-section-services-web-seven {
+      padding: 4rem 0; }
+    .section-services-web-seven h2 {
+      font-size: 1.8rem; }
+    .section-services-web-seven h4 {
+      font-size: 1.4rem;
+      margin-bottom: 2rem; }
+    .section-services-web-seven .image-container {
+      margin-bottom: 1rem; }
+    .section-services-web-seven .call-to-action {
+      margin-bottom: 2rem; }
+    .section-services-web-seven p {
+      font-size: 1.3rem;
+      padding: 0 1rem; }
+    .section-services-web-seven .col-content {
+      margin-bottom: 25px; }
+    .section-services-web-seven article {
+      padding: 0 1rem; }
+      .section-services-web-seven article .content .content-title {
+        padding: 0 1.7rem; }
+    .section-services-web-seven .modal-content .content-title {
+      padding: 0 1.7rem; }
+    .section-services-web-seven .modal-content .modal-footer .btn-call {
+      font-size: 1.2rem;
+      padding: 0.20rem 1rem; }
+    .section-services-web-seven h3 {
+      font-size: 1.5rem;
+      padding-bottom: 1.35rem; }
+    .section-services-web-seven ul li {
+      font-size: 1.05rem;
+      padding-bottom: 2px; }
+  .section-services-web-three {
+    padding: 4rem 0; }
+    .section-services-web-three h2 {
+      font-size: 1.8rem;
+      text-align: center; }
+    .section-services-web-three p {
+      font-size: 1.3rem;
+      text-align: center; }
+    .section-services-web-three article h3 {
+      font-size: 1.3rem; }
+    .section-services-web-three article p {
+      font-size: 1.3rem; }
+  .section-services-web-two .layer-section-services-web-two {
+    padding: 4rem 0; }
+  .section-services-web-two h3 {
+    font-size: 1.5rem;
+    line-height: 1.9rem; }
+  .section-services-web-two p {
+    font-size: 1.4rem; }
+  .section-services-web-five {
+    padding: 4rem 0; }
+    .section-services-web-five h2 {
+      font-size: 1.8rem; }
+    .section-services-web-five h4 {
+      font-size: 1.4rem;
+      margin-bottom: 1.5rem; }
+  .section-services-web-four .layer-section-services-web-four {
+    padding: 4rem 0; }
+  .section-services-web-four h3 {
+    font-size: 1.4rem;
+    line-height: 1.8rem; }
+  .section-services-web-four h4 {
+    font-size: 1.4rem;
+    line-height: 2.3rem; }
+  .section-services-web-six {
+    padding: 4rem 0; }
+    .section-services-web-six h2 {
+      font-size: 1.8rem; }
+    .section-services-web-six p {
+      font-size: 1.3rem; }
+    .section-services-web-six img {
+      margin-bottom: 1.5rem; }
+  .section-services-social-six {
+    background-image: url("../images/section-social-media-six-image-small.jpg"); }
+    .section-services-social-six .section-services-social-six {
+      padding: 4rem 0; }
+    .section-services-social-six h2 {
+      font-size: 1.8rem; }
+    .section-services-social-six h4 {
+      font-size: 1.4rem;
+      margin-bottom: 2rem; }
+    .section-services-social-six .image-container {
+      margin-bottom: 1rem; }
+    .section-services-social-six .call-to-action {
+      margin-bottom: 2rem; }
+    .section-services-social-six p {
+      font-size: 1.3rem;
+      padding: 0 1rem; }
+    .section-services-social-six .col-content {
+      margin-bottom: 25px; }
+    .section-services-social-six article {
+      padding: 0 1rem; }
+      .section-services-social-six article .content .content-title {
+        padding: 0 1.7rem; }
+    .section-services-social-six .modal-content .content-title {
+      padding: 0 1.7rem; }
+    .section-services-social-six .modal-content .modal-footer .btn-call {
+      font-size: 1.2rem;
+      padding: 0.2rem 1rem; }
+    .section-services-social-six h3 {
+      font-size: 1.5rem;
+      padding-bottom: 1.35rem; }
+    .section-services-social-six ul li {
+      font-size: 1.05rem;
+      padding-bottom: 2px; }
+  .section-services-social-three {
+    padding: 4rem 0; }
+    .section-services-social-three h2 {
+      text-align: center;
+      font-size: 1.8rem; }
+      .section-services-social-three h2 span {
+        font-size: 1.6rem; }
+    .section-services-social-three p {
+      text-align: center;
+      font-size: 1.3rem; }
+    .section-services-social-three img {
+      width: 90%; }
+    .section-services-social-three .col-image {
+      text-align: center; }
+  .section-services-social-four .layer-section-services-social-four {
+    padding: 4rem 0; }
+  .section-services-social-four h3 {
+    font-size: 1.7rem;
+    line-height: 2rem; }
+  .section-services-social-four h4 {
+    font-size: 1.6rem;
+    line-height: 2.1rem; }
+  .section-services-social-five {
+    padding: 4rem 0; }
+    .section-services-social-five h2 {
+      font-size: 1.8rem; }
+    .section-services-social-five p {
+      font-size: 1.3rem; }
+  .timeline > li .timeline-image h4 {
+    font-size: 0.8rem !important; }
+  .timeline > li.timeline-inverted .text-final {
+    font-size: 0.8rem !important; }
+  .timeline > li > .timeline-panel p {
+    font-size: 1.25rem; }
+  .section-contact-one {
+    padding: 4rem 0; }
+    .section-contact-one h2 {
+      font-size: 1.8rem; }
+    .section-contact-one p {
+      font-size: 1.3rem; }
+  .section-contact-two .info-container {
+    padding: 4rem 1rem; }
+    .section-contact-two .info-container h3 {
+      font-size: 1.7rem; }
+    .section-contact-two .info-container p {
+      font-size: 1.3rem; }
+    .section-contact-two .info-container ul li {
+      font-size: 1.3rem;
+      margin-bottom: 0.2rem; }
+    .section-contact-two .info-container .separator-contact {
+      margin-top: 2.2rem;
+      margin-bottom: 2rem; }
+  .section-contact-two .contact-container {
+    padding: 4rem 1rem; }
+    .section-contact-two .contact-container h3 {
+      font-size: 1.7rem;
+      color: #2F2F2F;
+      text-transform: uppercase; }
+  .section-contact-three {
+    padding: 4rem 0; }
+    .section-contact-three h2 {
+      text-align: center;
+      font-size: 1.8rem; }
+    .section-contact-three p {
+      font-size: 1.5rem; }
+  .section-carousel .carousel .carousel-caption {
+    bottom: 60px; }
+    .section-carousel .carousel .carousel-caption h1 {
+      font-size: 1.6rem; }
+    .section-carousel .carousel .carousel-caption p {
+      font-size: 1.3rem; }
+    .section-carousel .carousel .carousel-caption .call-to-action {
+      margin-top: 3rem; }
+  .section-carousel .carousel .carousel-indicators {
+    bottom: 10px; } }
+
 /*******************************************************/
+@media screen and (max-width: 380px) {
+  .section-home-one {
+    padding: 4rem 0; }
+    .section-home-one h2 {
+      font-size: 1.7rem; }
+    .section-home-one p {
+      font-size: 1.2rem; }
+  .section-home-two {
+    background-image: url("../images/section-home-two-small.jpeg"); }
+    .section-home-two .layer-section-home-two {
+      padding: 4rem 0; }
+    .section-home-two h2 {
+      font-size: 1.7rem; }
+    .section-home-two p {
+      font-size: 1.2rem; }
+  .section-home-three {
+    padding: 4rem 0; }
+    .section-home-three h2 {
+      font-size: 1.7rem; }
+    .section-home-three article h3 {
+      font-size: 1.5rem; }
+    .section-home-three article p {
+      font-size: 1.15rem; }
+  .section-home-four {
+    background-image: url("../images/section-home-four-small.jpg"); }
+    .section-home-four .layer-section-home-four {
+      padding: 4rem 0; }
+    .section-home-four h2 {
+      font-size: 1.7rem; }
+    .section-home-four p {
+      font-size: 1.2rem; }
+  .section-home-five {
+    padding: 4rem 0; }
+    .section-home-five h2 {
+      font-size: 1.7rem; }
+    .section-home-five p {
+      font-size: 1.2rem; }
+  .section-home-six .layer-section-home-six {
+    padding: 4rem 0; }
+  .section-home-six h3 {
+    font-size: 1.4rem; }
+  .section-home-seven {
+    padding: 4rem 0; }
+    .section-home-seven h2 {
+      font-size: 1.7rem; }
+    .section-home-seven h3 {
+      font-size: 1.3rem; }
+    .section-home-seven p {
+      font-size: 1.15rem; }
+  footer .footer-info .layer-footer-info {
+    padding: 3.5rem 0; }
+  footer .footer-info h5 {
+    font-size: 1.4rem; }
+  footer .footer-info p {
+    font-size: 1.15rem; }
+  footer .footer-info .follow-us p {
+    font-size: 1.15rem; }
+  footer .footer-info .follow-us .social .fa {
+    font-size: 1.9rem; }
+  footer .footer-info .footer-detalis h6 {
+    font-size: 1.3rem; }
+  footer .footer-info .footer-detalis p {
+    font-size: 1.15rem; }
+  footer .footer-copyright {
+    padding: 1rem 0; }
+    footer .footer-copyright h6 {
+      font-size: 1.15rem; }
+  .section-title-page {
+    margin-top: 3.3rem;
+    padding: 0.8rem; }
+    .section-title-page h1 {
+      font-size: 2rem; }
+  .section-about-us-one {
+    padding: 4rem 0; }
+    .section-about-us-one p {
+      text-align: center;
+      font-size: 1.15rem; }
+  ul.nav-tabs li a {
+    font-size: 17px; }
+  .section-about-us-two .layer-section-about-us-two {
+    padding: 4rem 0; }
+  .section-about-us-two h2 {
+    text-align: center;
+    font-size: 1.7rem; }
+  .section-about-us-two ul {
+    font-size: 1.15rem; }
+  .section-about-us-three {
+    padding: 4rem 0; }
+    .section-about-us-three article h3 {
+      font-size: 1.4rem;
+      text-align: center; }
+    .section-about-us-three article p {
+      font-size: 1.1rem;
+      text-align: center; }
+    .section-about-us-three .separator-about {
+      display: none; }
+  .section-about-us-four .layer-section-about-us-four {
+    padding: 4rem 0; }
+  .section-about-us-four h2 {
+    text-align: center;
+    font-size: 1.7rem; }
+  .section-about-us-four p {
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 1.6rem; }
+  .section-about-us-five {
+    padding: 4rem 0; }
+    .section-about-us-five h3 {
+      font-size: 1.4rem;
+      line-height: 2.1rem;
+      text-align: center; }
+  .section-services-web-one {
+    padding: 4rem 0; }
+    .section-services-web-one h2 {
+      font-size: 1.7rem; }
+    .section-services-web-one .paragraph {
+      font-size: 1.2rem;
+      padding: 0 0.5rem; }
+    .section-services-web-one article h3 {
+      color: #2F2F2F;
+      font-size: 1.5rem; }
+    .section-services-web-one article p {
+      font-size: 1.15rem; }
+    .section-services-web-one article .fa-lg {
+      font-size: 2rem; }
+  .section-services-web-seven {
+    background-image: url("../images/section-web-services-seven-image-small.jpeg"); }
+    .section-services-web-seven .layer-section-services-web-seven {
+      padding: 4rem 0; }
+    .section-services-web-seven h2 {
+      font-size: 1.7rem; }
+    .section-services-web-seven h4 {
+      font-size: 1.3rem;
+      margin-bottom: 2rem; }
+    .section-services-web-seven .image-container {
+      margin-bottom: 1rem; }
+    .section-services-web-seven .call-to-action {
+      margin-bottom: 2rem; }
+    .section-services-web-seven p {
+      font-size: 1.2rem;
+      padding: 0 1rem; }
+    .section-services-web-seven .col-content {
+      margin-bottom: 25px; }
+    .section-services-web-seven article {
+      padding: 0 1rem; }
+      .section-services-web-seven article .content .content-title {
+        padding: 0 1.7rem; }
+    .section-services-web-seven .modal-content .content-title {
+      padding: 0 1.7rem; }
+    .section-services-web-seven .modal-content .modal-footer .btn-call {
+      font-size: 1.05rem;
+      padding: 0.17rem 1rem; }
+    .section-services-web-seven h3 {
+      font-size: 1.4rem;
+      padding-bottom: 1.35rem; }
+    .section-services-web-seven ul li {
+      font-size: 0.95rem;
+      padding-bottom: 2px; }
+  .section-services-web-three {
+    padding: 4rem 0; }
+    .section-services-web-three h2 {
+      font-size: 1.7rem;
+      text-align: center; }
+    .section-services-web-three p {
+      font-size: 1.2rem;
+      text-align: center; }
+    .section-services-web-three article h3 {
+      font-size: 1.2rem; }
+    .section-services-web-three article p {
+      font-size: 1.2rem; }
+  .section-services-web-two .layer-section-services-web-two {
+    padding: 4rem 0; }
+  .section-services-web-two h3 {
+    font-size: 1.3rem;
+    line-height: 1.9rem; }
+  .section-services-web-two p {
+    font-size: 1.3rem; }
+  .section-services-web-five {
+    padding: 4rem 0; }
+    .section-services-web-five h2 {
+      font-size: 1.7rem; }
+    .section-services-web-five h4 {
+      font-size: 1.3rem;
+      margin-bottom: 1.5rem; }
+  .section-services-web-four .layer-section-services-web-four {
+    padding: 4rem 0; }
+  .section-services-web-four h3 {
+    font-size: 1.3rem;
+    line-height: 1.7rem; }
+  .section-services-web-four h4 {
+    font-size: 1.3rem;
+    line-height: 2.2rem; }
+  .section-services-web-six {
+    padding: 4rem 0; }
+    .section-services-web-six h2 {
+      font-size: 1.7rem; }
+    .section-services-web-six p {
+      font-size: 1.2rem; }
+    .section-services-web-six img {
+      margin-bottom: 1.5rem; }
+  .section-services-social-six {
+    background-image: url("../images/section-social-media-six-image-small.jpg"); }
+    .section-services-social-six .section-services-social-six {
+      padding: 4rem 0; }
+    .section-services-social-six h2 {
+      font-size: 1.7rem; }
+    .section-services-social-six h4 {
+      font-size: 1.3rem;
+      margin-bottom: 2rem; }
+    .section-services-social-six .image-container {
+      margin-bottom: 1rem; }
+    .section-services-social-six .call-to-action {
+      margin-bottom: 2rem; }
+    .section-services-social-six p {
+      font-size: 1.2rem;
+      padding: 0 1rem; }
+    .section-services-social-six .col-content {
+      margin-bottom: 25px; }
+    .section-services-social-six article {
+      padding: 0 1rem; }
+      .section-services-social-six article .content .content-title {
+        padding: 0 1.7rem; }
+    .section-services-social-six .modal-content .content-title {
+      padding: 0 1.7rem; }
+    .section-services-social-six .modal-content .modal-footer .btn-call {
+      font-size: 1.05rem;
+      padding: 0.17rem 1rem; }
+    .section-services-social-six h3 {
+      font-size: 1.4rem;
+      padding-bottom: 1.35rem; }
+    .section-services-social-six ul li {
+      font-size: 0.95rem;
+      padding-bottom: 2px; }
+  .section-services-social-three {
+    padding: 4rem 0; }
+    .section-services-social-three h2 {
+      text-align: center;
+      font-size: 1.7rem; }
+      .section-services-social-three h2 span {
+        font-size: 1.5rem; }
+    .section-services-social-three p {
+      text-align: center;
+      font-size: 1.2rem; }
+    .section-services-social-three img {
+      width: 90%; }
+    .section-services-social-three .col-image {
+      text-align: center; }
+  .section-services-social-four .layer-section-services-social-four {
+    padding: 4rem 0; }
+  .section-services-social-four h3 {
+    font-size: 1.5rem;
+    line-height: 1.9rem; }
+  .section-services-social-four h4 {
+    font-size: 1.4rem;
+    line-height: 2.1rem; }
+  .section-services-social-five {
+    padding: 4rem 0; }
+    .section-services-social-five h2 {
+      font-size: 1.7rem; }
+    .section-services-social-five p {
+      font-size: 1.2rem; }
+  .timeline > li .timeline-image h4 {
+    font-size: 0.7rem !important; }
+  .timeline > li.timeline-inverted .text-final {
+    font-size: 0.8rem !important; }
+  .timeline > li > .timeline-panel p {
+    font-size: 1.15rem; }
+  .section-contact-one {
+    padding: 4rem 0; }
+    .section-contact-one h2 {
+      font-size: 1.7rem; }
+    .section-contact-one p {
+      font-size: 1.2rem; }
+  .section-contact-two .info-container {
+    padding: 4rem 1rem; }
+    .section-contact-two .info-container h3 {
+      font-size: 1.6rem; }
+    .section-contact-two .info-container p {
+      font-size: 1.2rem; }
+    .section-contact-two .info-container ul li {
+      font-size: 1.2rem;
+      margin-bottom: 0.2rem; }
+    .section-contact-two .info-container .separator-contact {
+      margin-top: 2.2rem;
+      margin-bottom: 2rem; }
+  .section-contact-two .contact-container {
+    padding: 4rem 1rem; }
+    .section-contact-two .contact-container h3 {
+      font-size: 1.6rem;
+      color: #2F2F2F;
+      text-transform: uppercase; }
+  .section-contact-three {
+    padding: 4rem 0; }
+    .section-contact-three h2 {
+      text-align: center;
+      font-size: 1.7rem; }
+    .section-contact-three p {
+      font-size: 1.4rem; }
+  .section-carousel .carousel .carousel-caption {
+    bottom: 60px; }
+    .section-carousel .carousel .carousel-caption h1 {
+      font-size: 1.5rem; }
+    .section-carousel .carousel .carousel-caption p {
+      font-size: 1.3rem; }
+    .section-carousel .carousel .carousel-caption .call-to-action {
+      margin-top: 3rem; }
+  .section-carousel .carousel .carousel-indicators {
+    bottom: 10px; } }
+
 /****************************************************/
 @media screen and (max-width: 320px) {
   .section-home-one {
@@ -8005,6 +9299,268 @@ ul.nav-tabs li a {
   .section-home-seven {
     padding: 4rem 0; }
     .section-home-seven h2 {
-      font-size: 1.5rem; }
+      font-size: 1.7rem; }
+    .section-home-seven h3 {
+      font-size: 1.3rem; }
+    .section-home-seven p {
+      font-size: 1.15rem; }
   footer .footer-info .layer-footer-info {
-    padding: 3.5rem 0; } }
+    padding: 3.5rem 0; }
+  footer .footer-info h5 {
+    font-size: 1.1rem; }
+  footer .footer-info p {
+    font-size: 1rem; }
+  footer .footer-info .follow-us p {
+    font-size: 1.1rem; }
+  footer .footer-info .follow-us .social .fa {
+    font-size: 1.8rem; }
+  footer .footer-info .footer-detalis h6 {
+    font-size: 1.1rem; }
+  footer .footer-info .footer-detalis p {
+    font-size: 1rem; }
+  footer .footer-copyright {
+    padding: 1rem 0; }
+    footer .footer-copyright h6 {
+      font-size: 0.95rem; }
+  .section-title-page {
+    margin-top: 3.3rem;
+    padding: 0.8rem; }
+    .section-title-page h1 {
+      font-size: 2rem; }
+  .section-about-us-one {
+    padding: 4rem 0; }
+    .section-about-us-one p {
+      text-align: center;
+      font-size: 1.1rem; }
+  ul.nav-tabs li a {
+    font-size: 14px; }
+  .section-about-us-two .layer-section-about-us-two {
+    padding: 4rem 0; }
+  .section-about-us-two h2 {
+    text-align: center;
+    font-size: 1.5rem; }
+  .section-about-us-two ul {
+    font-size: 1.05rem; }
+  .section-about-us-three {
+    padding: 4rem 0; }
+    .section-about-us-three article h3 {
+      font-size: 1.2rem;
+      text-align: center; }
+    .section-about-us-three article p {
+      font-size: 1rem;
+      text-align: center; }
+    .section-about-us-three .separator-about {
+      display: none; }
+  .section-about-us-four .layer-section-about-us-four {
+    padding: 4rem 0; }
+  .section-about-us-four h2 {
+    text-align: center;
+    font-size: 1.5rem; }
+  .section-about-us-four p {
+    font-size: 1.1rem;
+    text-align: center;
+    line-height: 1.6rem; }
+  .section-about-us-five {
+    padding: 4rem 0; }
+    .section-about-us-five h3 {
+      font-size: 1.3rem;
+      line-height: 2rem;
+      text-align: center; }
+  .section-services-web-one {
+    padding: 4rem 0; }
+    .section-services-web-one h2 {
+      font-size: 1.5rem; }
+    .section-services-web-one .paragraph {
+      font-size: 1.1rem;
+      padding: 0 0.5rem; }
+    .section-services-web-one article h3 {
+      color: #2F2F2F;
+      font-size: 1.25rem; }
+    .section-services-web-one article p {
+      font-size: 1.05rem; }
+    .section-services-web-one article .fa-lg {
+      font-size: 2rem; }
+  .section-services-web-seven {
+    background-image: url("../images/section-web-services-seven-image-small.jpeg"); }
+    .section-services-web-seven .layer-section-services-web-seven {
+      padding: 4rem 0; }
+    .section-services-web-seven h2 {
+      font-size: 1.5rem; }
+    .section-services-web-seven h4 {
+      font-size: 1.2rem;
+      margin-bottom: 2rem; }
+    .section-services-web-seven .image-container {
+      margin-bottom: 1rem; }
+    .section-services-web-seven .call-to-action {
+      margin-bottom: 2rem; }
+    .section-services-web-seven p {
+      font-size: 1.1rem;
+      padding: 0 1rem; }
+    .section-services-web-seven .col-content {
+      margin-bottom: 25px; }
+    .section-services-web-seven article {
+      padding: 0 1rem; }
+      .section-services-web-seven article .content .content-title {
+        padding: 0 1.7rem; }
+    .section-services-web-seven .modal-content .content-title {
+      padding: 0 1.7rem; }
+    .section-services-web-seven .modal-content .modal-footer .btn-call {
+      font-size: 1.05rem;
+      padding: 0.17rem 1rem; }
+    .section-services-web-seven h3 {
+      font-size: 1.2rem;
+      padding-bottom: 1rem; }
+    .section-services-web-seven ul li {
+      font-size: 0.95rem;
+      padding-bottom: 2px; }
+  .section-services-web-three {
+    padding: 4rem 0; }
+    .section-services-web-three h2 {
+      font-size: 1.5rem;
+      text-align: center; }
+    .section-services-web-three p {
+      font-size: 1.1rem;
+      text-align: center; }
+    .section-services-web-three article h3 {
+      font-size: 1.1rem; }
+    .section-services-web-three article p {
+      font-size: 1.1rem; }
+  .section-services-web-two .layer-section-services-web-two {
+    padding: 4rem 0; }
+  .section-services-web-two h3 {
+    font-size: 1.3rem;
+    line-height: 1.9rem; }
+  .section-services-web-two p {
+    font-size: 1.2rem; }
+  .section-services-web-five {
+    padding: 4rem 0; }
+    .section-services-web-five h2 {
+      font-size: 1.5rem; }
+    .section-services-web-five h4 {
+      font-size: 1.2rem;
+      margin-bottom: 1.5rem; }
+  .section-services-web-four .layer-section-services-web-four {
+    padding: 4rem 0; }
+  .section-services-web-four h3 {
+    font-size: 1.2rem;
+    line-height: 1.7rem; }
+  .section-services-web-four h4 {
+    font-size: 1.2rem;
+    line-height: 2.2rem; }
+  .section-services-web-six {
+    padding: 4rem 0; }
+    .section-services-web-six h2 {
+      font-size: 1.5rem; }
+    .section-services-web-six p {
+      font-size: 1.1rem; }
+    .section-services-web-six img {
+      margin-bottom: 1.5rem; }
+  .section-services-social-six {
+    background-image: url("../images/section-social-media-six-image-small.jpg"); }
+    .section-services-social-six .section-services-social-six {
+      padding: 4rem 0; }
+    .section-services-social-six h2 {
+      font-size: 1.5rem; }
+    .section-services-social-six h4 {
+      font-size: 1.2rem;
+      margin-bottom: 2rem; }
+    .section-services-social-six .image-container {
+      margin-bottom: 1rem; }
+    .section-services-social-six .call-to-action {
+      margin-bottom: 2rem; }
+    .section-services-social-six p {
+      font-size: 1.1rem;
+      padding: 0 1rem; }
+    .section-services-social-six .col-content {
+      margin-bottom: 25px; }
+    .section-services-social-six article {
+      padding: 0 1rem; }
+      .section-services-social-six article .content .content-title {
+        padding: 0 1.7rem; }
+    .section-services-social-six .modal-content .content-title {
+      padding: 0 1.7rem; }
+    .section-services-social-six .modal-content .modal-footer .btn-call {
+      font-size: 1.05rem;
+      padding: 0.17rem 1rem; }
+    .section-services-social-six h3 {
+      font-size: 1.2rem;
+      padding-bottom: 1rem; }
+    .section-services-social-six ul li {
+      font-size: 0.95rem;
+      padding-bottom: 2px; }
+  .section-services-social-three {
+    padding: 4rem 0; }
+    .section-services-social-three h2 {
+      text-align: center;
+      font-size: 1.5rem; }
+      .section-services-social-three h2 span {
+        font-size: 1.3rem; }
+    .section-services-social-three p {
+      text-align: center;
+      font-size: 1.1rem; }
+    .section-services-social-three img {
+      width: 90%; }
+    .section-services-social-three .col-image {
+      text-align: center; }
+  .section-services-social-four .layer-section-services-social-four {
+    padding: 4rem 0; }
+  .section-services-social-four h3 {
+    font-size: 1.2rem;
+    line-height: 1.7rem; }
+  .section-services-social-four h4 {
+    font-size: 1.2rem;
+    line-height: 2rem; }
+  .section-services-social-five {
+    padding: 4rem 0; }
+    .section-services-social-five h2 {
+      font-size: 1.5rem; }
+    .section-services-social-five p {
+      font-size: 1.1rem; }
+  .timeline > li .timeline-image h4 {
+    font-size: 0.5rem !important; }
+  .timeline > li.timeline-inverted .text-final {
+    font-size: 0.7rem !important; }
+  .timeline > li > .timeline-panel p {
+    font-size: 1.1rem; }
+  .section-contact-one {
+    padding: 4rem 0; }
+    .section-contact-one h2 {
+      font-size: 1.5rem; }
+    .section-contact-one p {
+      font-size: 1.1rem; }
+  .section-contact-two .info-container {
+    background: rgba(0, 59, 103, 0.8);
+    padding: 4rem 1rem; }
+    .section-contact-two .info-container h3 {
+      font-size: 1.4rem; }
+    .section-contact-two .info-container p {
+      font-size: 1rem; }
+    .section-contact-two .info-container ul li {
+      font-size: 1rem;
+      margin-bottom: 0.2rem; }
+    .section-contact-two .info-container .separator-contact {
+      margin-top: 2.2rem;
+      margin-bottom: 2rem; }
+  .section-contact-two .contact-container {
+    padding: 4rem 1rem; }
+    .section-contact-two .contact-container h3 {
+      font-size: 1.4rem;
+      color: #2F2F2F;
+      text-transform: uppercase; }
+  .section-contact-three {
+    padding: 4rem 0; }
+    .section-contact-three h2 {
+      text-align: center;
+      font-size: 1.5rem; }
+    .section-contact-three p {
+      font-size: 1.3rem; }
+  .section-carousel .carousel .carousel-caption {
+    bottom: 60px; }
+    .section-carousel .carousel .carousel-caption h1 {
+      font-size: 1.3rem; }
+    .section-carousel .carousel .carousel-caption p {
+      font-size: 1.3rem; }
+    .section-carousel .carousel .carousel-caption .call-to-action {
+      margin-top: 3rem; }
+  .section-carousel .carousel .carousel-indicators {
+    bottom: 10px; } }
